@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  openweatherapi:
+    build: .
+    command: python app.py
+    volumes:
+      - .:/code
+    ports:
+      - 7007:7007

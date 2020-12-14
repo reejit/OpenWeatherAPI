@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+pyvenv.cfg
+/Lib/
+/Scripts/
+/__pycache__/
+Procfile
+runtime.txt
